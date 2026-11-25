@@ -1,0 +1,11 @@
+.logo {
+  &__icon {
+    fill: var(--primary-light);
+    width: 114px;
+    height: 56px;
+
+    &--black {
+      fill: var(--primety-dark);
+    }
+  }
+}

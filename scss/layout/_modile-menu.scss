@@ -1,0 +1,31 @@
+.modile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: var(--primary-light);
+
+  transform: translate(0%);
+  transition: 0.3s;
+
+  &.is-hidden {
+    transform: translate(100%);
+  }
+
+  &__btn-close {
+    position: absolute;
+    top: 49px;
+    right: 22px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+
+    &-icon {
+      background-color: transparent;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

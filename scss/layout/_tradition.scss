@@ -1,0 +1,47 @@
+/* tradition section */
+.tradition-section {
+  &__conteiner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  &__content {
+    max-width: 710px;
+  }
+  &__title {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 42px;
+
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 64px;
+    }
+  }
+
+  &__section {
+    padding-top: 96px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 18px;
+    }
+  }
+  &__text .limited {
+    max-width: 340px;
+  }
+  &.uppercase {
+    text-transform: uppercase;
+  }
+
+  &__img {
+    display: none;
+
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+    }
+  }
+}

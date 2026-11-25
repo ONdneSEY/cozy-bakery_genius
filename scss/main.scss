@@ -1,0 +1,50 @@
+@import "./utils/fons";
+@import "./utils/variables";
+
+@import "./base";
+
+@import "./utils/utils";
+
+@import "./components/buttons";
+@import "./components/contact-form";
+@import "./components/links";
+@import "./components/logo";
+@import "./components/chef-cadt";
+@import "./components/format-cart";
+@import "./components/pagination-button";
+
+@import "./layout/advantages";
+@import "./layout/backdrop";
+@import "./layout/chef";
+@import "./layout/contact";
+@import "./layout/footer";
+@import "./layout/formats";
+@import "./layout/header";
+@import "./layout/tradition";
+@import "./layout/hero";
+@import "./layout/modile-menu"; /* 
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: auto;
+}
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: auto;
+}
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: auto;
+}
+h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+}
+h6 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: auto;
+} */

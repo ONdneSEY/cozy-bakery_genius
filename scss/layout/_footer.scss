@@ -1,0 +1,90 @@
+/* footer */
+.footer {
+  position: relative;
+  background-image: url(../image/bg/footer.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: var(--primety-dark);
+  padding-top: 32px;
+
+  &::before {
+    width: 180px;
+    height: 120px;
+    background-image: url(../image/icon/mbadvn-small.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+  }
+
+  &::after {
+    width: 380px;
+    height: 180px;
+    background-image: url(../image/icon/mbadvn-big.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+  }
+  &__conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+    }
+  }
+
+  &__nav,
+  &__address {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    z-index: 11;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-basis: 50%;
+      flex-direction: row;
+      text-align: left;
+    }
+  }
+
+  &__logo,
+  &__menu {
+    flex-grow: 1;
+  }
+
+  &__addres-info,
+  &__address-list {
+    flex-grow: 1;
+  }
+
+  &__address-copyright {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--secondary-dark);
+  }
+
+  &__addres-icon {
+    width: 32px;
+    height: 32px;
+    fill: var(--primary-light);
+    transition: fill 0.3s;
+  }
+
+  &__addres-icon:hover {
+    fill: var(--acsent-light);
+  }
+
+  &__address-link {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: var(--primary-light);
+  }
+}
