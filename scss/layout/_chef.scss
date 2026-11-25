@@ -40,7 +40,7 @@
     flex-wrap: wrap;
     gap: 25px;
 
-    @media screen and (min-width: $bp-desktop) {
+    @media screen and (min-width: 560px) {
       flex-direction: row;
       gap: 40px 30px;
     }
